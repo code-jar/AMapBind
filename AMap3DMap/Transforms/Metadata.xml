@@ -1,0 +1,67 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='VisibleRegionCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='VisibleRegionCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='ArcOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='ArcOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMapOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMapOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='BitmapDescriptorCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='BitmapDescriptorCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='CircleOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='CircleOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TextOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TextOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PoiCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PoiCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='CameraPositionCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='CameraPositionCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PolygonOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PolygonOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='GroundOverlayOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='GroundOverlayOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='LatLngBoundsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='LatLngBoundsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TileOverlayOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TileOverlayOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TileProjectionCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TileProjectionCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='NavigateArrowOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='NavigateArrowOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='MyLocationStyleCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='MyLocationStyleCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='LatLngCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='LatLngCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PolylineOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PolylineOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='MarkerOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='MarkerOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnMapScreenShotListener']/method[@name='onMapScreenShot' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]" name="managedName">OnMapScreenShoting</attr>
+
+
+</metadata>
