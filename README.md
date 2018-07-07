@@ -1,2 +1,5 @@
-# AMapBindSolution
-¸ßµÂµØÍ¼Xamarin.android°ó¶¨¿â °üº¬2D¡¢3DµØÍ¼¡¢¶¨Î»¡¢ËÑË÷SDK°ó¶¨
+ï»¿# AMapBindSolution
+é«˜å¾·åœ°å›¾Xamarin.androidç»‘å®šåº“ åŒ…å«2Dã€3Dåœ°å›¾ã€å®šä½ã€æœç´¢SDKç»‘å®š
+
+
+<a href="https://www.nuget.org/packages?q=amap.xamarin">Nuget</a>
