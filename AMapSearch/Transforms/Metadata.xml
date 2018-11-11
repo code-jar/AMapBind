@@ -14,5 +14,4 @@
   <attr path="/api/package[@name='com.amap.api.services.traffic']/class[@name='TrafficSearch']" name="name">TrafficSearchClass</attr>
   <attr path="/api/package[@name='com.amap.api.services.route']/class[@name='DistanceSearch']" name="name">DistanceSearchClass</attr>
 
-
 </metadata>
