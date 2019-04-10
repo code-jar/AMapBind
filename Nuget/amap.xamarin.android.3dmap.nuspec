@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Amap.Xamarin.Android.3DMap</id>
+    <version>6.8.0</version>
+    <title></title>
+    <authors>ricarod_jar</authors>
+    <owners>ricarod_jar</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/code-jar/AMapBind</projectUrl>
+    <description>高德3D地图 Xamarin.Android绑定库</description>
+    <tags>Amap 3DMap 高德地图</tags>
+  </metadata>
+<files>
+<file src="..\AMap3DMap\bin\Release\*.dll" target="lib\monoandroid81" />
+</files>
+</package>
