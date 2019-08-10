@@ -46,7 +46,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\AMap3DMap_6.8.0_20190403.aar" />
+    <LibraryProjectZip Include="Jars\AMap3DMap_6.9.2_20190710.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />

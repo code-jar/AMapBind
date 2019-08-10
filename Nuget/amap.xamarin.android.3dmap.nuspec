@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Amap.Xamarin.Android.3DMap</id>
-    <version>6.8.0</version>
+    <version>6.9.2</version>
     <title></title>
     <authors>ricarod_jar</authors>
     <owners>ricarod_jar</owners>

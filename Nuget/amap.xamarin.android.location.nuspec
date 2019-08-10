@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Amap.Xamarin.Android.Location</id>
-    <version>4.5.0</version>
+    <version>4.7.0</version>
     <title></title>
     <authors>ricarod_jar</authors>
     <owners>ricarod_jar</owners>
