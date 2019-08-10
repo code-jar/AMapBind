@@ -44,7 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="AMapLocation_4.7.0_20190710.aar" />
+    <LibraryProjectZip Include="Jars\AMapLocation_4.7.0_20190710.aar" />
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
   </ItemGroup>
