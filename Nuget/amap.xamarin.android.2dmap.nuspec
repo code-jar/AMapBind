@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Amap.Xamarin.Android.Location</id>
-    <version>4.7.0</version>
+    <id>Amap.Xamarin.Android.2DMap</id>
+    <version>5.2.0</version>
     <title></title>
     <authors>ricarod_jar</authors>
     <owners>ricarod_jar</owners>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <repository type="git" url="https://github.com/code-jar/AMapBind" />
-    <description>高德地图定位Sdk Xamarin.Android绑定库</description>
-    <tags>高德地图 Amap 定位Sdk</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>高德2D地图 Xamarin.Android绑定库</description>
   </metadata>
  <files>
-  <file src="..\AMapLocation\bin\Release\lib\**" target="lib/" />
+  <file src="..\AMap2DMap\bin\Release\lib\**" target="lib/" />
  </files>
 </package>

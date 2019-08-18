@@ -1,20 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Amap.Xamarin.Android.3DMap</id>
+    <id>Amap.Xamarin.Android.Search</id>
     <version>6.9.2</version>
     <title></title>
     <authors>ricarod_jar</authors>
     <owners>ricarod_jar</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <repository type="git" url="https://github.com/code-jar/AMapBind" />
-    <description>高德3D地图 Xamarin.Android绑定库</description>
-    <tags>Amap 3DMap 高德地图</tags>
-    <dependencies>
-      <dependency id="Xamarin.Android.Support.v4" version="28.0.0.1" />
-    </dependencies>
+    <description>高德地图搜索Sdk Xamarin.Android绑定库</description>
+    <copyright></copyright>
+    <tags>高德地图 Amap</tags>
   </metadata>
- <files>
-  <file src="..\AMap3DMap\bin\Release\lib\**" target="lib/" />
- </files>
+   <files>
+     <file src="..\AMapSearch\bin\Release\lib\**" target="lib/" />
+   </files>
 </package>
