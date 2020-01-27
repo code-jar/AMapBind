@@ -1,4 +1,4 @@
 msbuild ../AMapSearch/AMapSearch.csproj /t:Clean /t:Rebuild /v:minimal /p:Configuration=Release;DebugType=none;TargetFrameworkVersion=v4.4;OutDir=bin\Release\lib\monoandroid44
 
-nuget pack amap.xamarin.android.search.nuspec -Version 6.9.2
+nuget pack amap.xamarin.android.search.nuspec -Version 7.1.0
 pause

@@ -48,7 +48,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\AMap2DMap_5.2.0_20180706.aar" />
+    <LibraryProjectZip Include="Jars\AMap2DMap_6.0.0_20191113.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

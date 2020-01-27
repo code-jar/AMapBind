@@ -47,12 +47,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Additions\CrossVectorOverlay.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\AMap3DMap_6.9.2_20190710.aar" />
+    <LibraryProjectZip Include="Jars\AMap3DMap_7.2.1_20200115.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
