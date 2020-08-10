@@ -65,4 +65,28 @@
   <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnMapScreenShotListener']/method[@name='onMapScreenShot' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]" name="managedName">OnMapScreenShoting</attr>
 
 
+
+  <attr path="/api/package[@name='com.autonavi.base.amap.mapcore']/class[@name='AMapNativeGlOverlayLayer']/method[@name='createNative' and count(parameter)=0]" name="visibility">protected</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnIndoorBuildingActiveListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnIndoorBuildingActiveListener']]" name="managedName">AddIndoorBuildingActive</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnCameraChangeListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnCameraChangeListener']]" name="managedName">AddCameraChange</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnMarkerClickListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnMarkerClickListener']]" name="managedName">AddMarkerClick</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnMarkerDragListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnMarkerDragListener']]" name="managedName">AddMarkerDrag</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnPolylineClickListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnPolylineClickListener']]" name="managedName">AddPolylineClick</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnMyLocationChangeListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnMyLocationChangeListener']]" name="managedName">AddMyLocationChange</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnPOIClickListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnPOIClickListener']]" name="managedName">AddPOIClick</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnMapTouchListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnMapTouchListener']]" name="managedName">AddMapTouch</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnMapLongClickListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnMapLongClickListener']]" name="managedName">AddMapLongClick</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnMapLoadedListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnMapLoadedListener']]" name="managedName">AddMapLoaded</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnMapClickListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnMapClickListener']]" name="managedName">AddMapClick</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']/method[@name='addOnInfoWindowClickListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.AMap.OnInfoWindowClickListener']]" name="managedName">AddInfoWindowClick</attr>
+
+  <!--<attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnPolylineClickListener']/method[@name='onPolylineClick' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.model.Polyline']]" name="argsType">PolylineEventArgs</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnPOIClickListener']/method[@name='onPOIClick' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.model.Poi']]" name="argsType">POIEventArgs</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnIndoorBuildingActiveListener']/method[@name='OnIndoorBuilding' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.model.IndoorBuildingInfo']]" name="argsType">IndoorBuildingInfoEventArgs</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnInfoWindowClickListener']/method[@name='onInfoWindowClick' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.model.Marker']]" name="argsType">InfoWindowClickEventArgs</attr>
+  <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnMapLongClickListener']/method[@name='onMapLongClick' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.model.LatLng']]" name="argsType">MapLongClickEventArgs</attr>-->
+
+
+
 </metadata>

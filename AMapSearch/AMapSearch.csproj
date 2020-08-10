@@ -57,7 +57,7 @@
     <None Include="Additions\AboutAdditions.txt" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\search-7.1.0.jar" />
+    <EmbeddedJar Include="Jars\search-7.4.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
