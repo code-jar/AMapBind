@@ -5,5 +5,5 @@ cd ../AMap3DMap/bin
 del /S Xamarin.Android.Support.v4.dll
 cd %curDir%
 
-nuget pack amap.xamarin.android.3dmap.nuspec -Version 7.6.0
+nuget pack amap.xamarin.android.3dmap.nuspec -Version 7.8.0
 pause

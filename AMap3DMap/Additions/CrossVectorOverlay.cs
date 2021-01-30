@@ -14,11 +14,9 @@ namespace Com.Autonavi.Base.AE.Gmap.Gloverlay
 {
     public partial class CrossVectorOverlay : global::Com.Autonavi.Base.AE.Gmap.Gloverlay.BaseMapOverlay, global::Com.Autonavi.Amap.Mapcore.Interfaces.ICrossVectorOverlay
     {
-
         public void SetVisible(bool p0)
         {
             this.Visible = p0;
         }
-
     }
 }

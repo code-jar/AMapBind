@@ -7,6 +7,7 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
 
+  <remove-node path="/api/package[@name='com.autonavi.base.ae.gmap.gloverlay']/class[@name='CrossVectorOverlay']/method[@name='setVisible' and count(parameter)=1 and parameter[1][@type='boolean']]" />
 
   <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='VisibleRegionCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
   <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='VisibleRegionCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
@@ -86,7 +87,6 @@
   <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnIndoorBuildingActiveListener']/method[@name='OnIndoorBuilding' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.model.IndoorBuildingInfo']]" name="argsType">IndoorBuildingInfoEventArgs</attr>
   <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnInfoWindowClickListener']/method[@name='onInfoWindowClick' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.model.Marker']]" name="argsType">InfoWindowClickEventArgs</attr>
   <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnMapLongClickListener']/method[@name='onMapLongClick' and count(parameter)=1 and parameter[1][@type='com.amap.api.maps.model.LatLng']]" name="argsType">MapLongClickEventArgs</attr>-->
-
 
 
 </metadata>

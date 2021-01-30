@@ -13,6 +13,5 @@
   <attr path="/api/package[@name='com.amap.api.services.district']/interface[@name='DistrictSearch.OnDistrictSearchListener']" name="managedName">IOnDistrictHahSearch</attr>
   <attr path="/api/package[@name='com.amap.api.services.help']/interface[@name='Inputtips.InputtipsListener']" name="managedName">IInputtips</attr>
   <attr path="/api/package[@name='com.amap.api.services.route']/interface[@name='DistanceSearch.OnDistanceSearchListener']" name="managedName">IOnDistanceSearch</attr>
-  <attr path="/api/package[@name='com.amap.api.services.traffic']/interface[@name='TrafficSearch.OnTrafficSearchListener']" name="managedName">IOnTrafficSearch</attr>
 
 </metadata>
