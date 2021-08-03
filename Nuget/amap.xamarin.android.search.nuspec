@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Amap.Xamarin.Android.Search</id>
-    <version>6.9.2</version>
+    <version>7.9.0</version>
     <title></title>
     <authors>ricarod_jar</authors>
     <owners>ricarod_jar</owners>
@@ -11,6 +11,10 @@
     <description>高德地图搜索Sdk Xamarin.Android绑定库</description>
     <copyright></copyright>
     <tags>高德地图 Amap</tags>
+    <dependencies>
+     <group targetFramework="MonoAndroid11.0">
+     </group>
+    </dependencies>
   </metadata>
    <files>
      <file src="..\AMapSearch\bin\Release\lib\**" target="lib/" />
